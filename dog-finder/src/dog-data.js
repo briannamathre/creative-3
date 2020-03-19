@@ -1,4 +1,25 @@
-let doggie = [{
+let doggie = [
+  {
+    id: 12,
+    name: "Jack Russell Terrier",
+    weight: "14 – 18 pounds",
+    startingPrice: "$900",
+    size: "Small",
+    hypoallergenic: "No",
+    basicInfo: "Although not recognized by the American Kennel Club, Jack Russell terriers have made a name for themselves by appearing on screen in Wishbone, The Artist, and My Dog Skip, to name a few. The intelligent workers can be stubborn and extremely energetic.",
+    image: 'JackRussel.jpg'
+  },
+  {
+    id: 2,
+    name: "Chihuahua",
+    weight: "3.3 – 6.6 pounds",
+    startingPrice: "$400",
+    size: "Small",
+    hypoallergenic: "No",
+    basicInfo: "Named after the Mexican state of Chihuahua, these loyal and energetic dogs prove that good things do come in small packages — about five pound packages, to be exact.",
+    image: 'chihuahua.jpg'
+  },
+  {
     id: 1,
     name: "Alaskan Klee Kai",
     weight: "~15 pounds",
@@ -7,16 +28,6 @@ let doggie = [{
     hypoallergenic: "No",
     basicInfo: "Love huskies but don't quite have the space for a medium-sized dog? May we introduce you to the Alaskan Klee Kai — this dog looks just like a husky, but will only weigh up to 15 pounds. If you need more convincing, this is the breed of Sophie Turner's adorable pup.",
     image: 'Alaskan-Klee-Kai.jpg'
-  },
-  {
-    id: 2,
-    name: "Chihuahua",
-    weight: "3.3 – 6.6 pounds",
-    startingPrice: "$400",
-    size: "Small",
-    hypoallergenic: "Sometimes",
-    basicInfo: "Named after the Mexican state of Chihuahua, these loyal and energetic dogs prove that good things do come in small packages — about five pound packages, to be exact.",
-    image: 'chihuahua.jpg'
   },
   {
     id: 3,
@@ -110,16 +121,7 @@ let doggie = [{
     basicInfo: "The smaller ancestor of the English bulldog, this breed has a big personality but requires minimal exercise. It's no wonder the big-eared pooches are becoming increasingly popular, especially in big cities.",
     image: 'french-bulldog.jpg'
   },
-  {
-    id: 12,
-    name: "Jack Russell Terrier",
-    weight: "14 – 18 pounds",
-    startingPrice: "$900",
-    size: "Small",
-    hypoallergenic: "No",
-    basicInfo: "Although not recognized by the American Kennel Club, Jack Russell terriers have made a name for themselves by appearing on screen in Wishbone, The Artist, and My Dog Skip, to name a few. The intelligent workers can be stubborn and extremely energetic.",
-    image: 'JackRussel.jpg'
-  },
+
   {
     id: 13,
     name: "Lhasa Apso",
@@ -318,7 +320,7 @@ let doggie = [{
     startingPrice: "$1,900",
     size: "Medium",
     hypoallergenic: "Yes",
-    basicInfo: "They haven't earned the name 'water dog' for nothing. PWDs have waterproof coats and webbed feet, originally bred for fishing. Today, the Obamas' two pets are the most famous examples of the breed. The family partially chose the "First Dogs" for their hypoallergenic fur.",
+    basicInfo: "They haven't earned the name 'water dog' for nothing. PWDs have waterproof coats and webbed feet, originally bred for fishing. Today, the Obamas' two pets are the most famous examples of the breed. The family partially chose the 'First Dogs' for their hypoallergenic fur.",
     image: 'portuguese-waterdog-royalty-free-image-1056385382-1565124261.jpg'
   },
   {
@@ -510,16 +512,6 @@ let doggie = [{
     hypoallergenic: "No",
     basicInfo: "Bubbly and energetic, the Weimaraner loves as much exercise and engagement as possible. The velvety gray coat is its trademark, but beneath the silvery exterior is an intelligent and affectionate soul. ",
     image: 'purebred-weimaraner-dog-outdoors-in-nature-royalty-free-image-487576070-1560888072.jpg'
-  },
-  {
-    id: 51,
-    name: "Weimaraner",
-    weight: "50-90 pounds",
-    startingPrice: "$900",
-    size: "Large",
-    hypoallergenic: "No",
-    basicInfo: "Loyal, loving, obedient, and protective, German shepherds can make wonderful pets if they're properly trained. Most form a very strong emotional bond with their owners. They tend to possess a lot of energy that they need to exert regularly. ",
-    image: 'german-shepherd-dog-royalty-free-image-806942944-1560893738.jpg'
   }
 ]
 
